@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="null http://www.silabs.com/ss/Studio.ecore" name="aaaaa" boardCompatibility="brd4300a:0.0.0.A03" partCompatibility="mcu.arm.efr32.bg1.efr32bg1b232f256gm48" toolchainCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" sdkCompatibility="com.silabs.sdk.exx32:5.0.0._1888978520" propertyScope="project" contentRoot="file:/C:/Users/anteo/SimplicityStudio/v4_workspace/aaaaa/">
+  <folder name="bsp" uri="bsp/" includeAllFiles="false" includeAllFolders="false">
+    <file name="bsp.h"/>
+    <file name="bsp_bcc.c"/>
+    <file name="bsp_bcp.h"/>
+    <file name="bsp_stk.c"/>
+    <file name="bsp_stk_leds.c"/>
+    <file name="bsp_trace.c"/>
+    <file name="bsp_trace.h"/>
+  </folder>
+  <folder name="emlib" uri="emlib/" includeAllFiles="false" includeAllFolders="false">
+    <folder name="inc" uri="inc/" includeAllFiles="false" includeAllFolders="false">
+      <file name="em_acmp.h"/>
+      <file name="em_adc.h"/>
+      <file name="em_aes.h"/>
+      <file name="em_assert.h"/>
+      <file name="em_burtc.h"/>
+      <file name="em_bus.h"/>
+      <file name="em_chip.h"/>
+      <file name="em_cmu.h"/>
+      <file name="em_common.h"/>
+      <file name="em_core.h"/>
+      <file name="em_crypto.h"/>
+      <file name="em_dac.h"/>
+      <file name="em_dbg.h"/>
+      <file name="em_dma.h"/>
+      <file name="em_ebi.h"/>
+      <file name="em_emu.h"/>
+      <file name="em_gpio.h"/>
+      <file name="em_i2c.h"/>
+      <file name="em_idac.h"/>
+      <file name="em_int.h"/>
+      <file name="em_ldma.h"/>
+      <file name="em_lesense.h"/>
+      <file name="em_letimer.h"/>
+      <file name="em_leuart.h"/>
+      <file name="em_mpu.h"/>
+      <file name="em_msc.h"/>
+      <file name="em_opamp.h"/>
+      <file name="em_pcnt.h"/>
+      <file name="em_prs.h"/>
+      <file name="em_ramfunc.h"/>
+      <file name="em_rmu.h"/>
+      <file name="em_rtc.h"/>
+      <file name="em_rtcc.h"/>
+      <file name="em_system.h"/>
+      <file name="em_timer.h"/>
+      <file name="em_usart.h"/>
+      <file name="em_vcmp.h"/>
+      <file name="em_wdog.h"/>
+    </folder>
+    <folder name="src" uri="src/" includeAllFiles="false" includeAllFolders="false">
+      <file name="em_acmp.c"/>
+      <file name="em_adc.c"/>
+      <file name="em_aes.c"/>
+      <file name="em_assert.c"/>
+      <file name="em_burtc.c"/>
+      <file name="em_cmu.c"/>
+      <file name="em_core.c"/>
+      <file name="em_crypto.c"/>
+      <file name="em_dac.c"/>
+      <file name="em_dbg.c"/>
+      <file name="em_dma.c"/>
+      <file name="em_ebi.c"/>
+      <file name="em_emu.c"/>
+      <file name="em_gpio.c"/>
+      <file name="em_i2c.c"/>
+      <file name="em_idac.c"/>
+      <file name="em_ldma.c"/>
+      <file name="em_lesense.c"/>
+      <file name="em_letimer.c"/>
+      <file name="em_leuart.c"/>
+      <file name="em_mpu.c"/>
+      <file name="em_msc.c"/>
+      <file name="em_opamp.c"/>
+      <file name="em_pcnt.c"/>
+      <file name="em_prs.c"/>
+      <file name="em_rmu.c"/>
+      <file name="em_rtc.c"/>
+      <file name="em_rtcc.c"/>
+      <file name="em_system.c"/>
+      <file name="em_timer.c"/>
+      <file name="em_usart.c"/>
+      <file name="em_vcmp.c"/>
+      <file name="em_wdog.c"/>
+    </folder>
+    <file name="Changes_emlib.txt"/>
+    <file name="ReadMe_emlib.txt"/>
+  </folder>
+  <folder name="src" uri="src/" includeAllFiles="false" includeAllFolders="false">
+    <file name="bspconfig.h"/>
+    <file name="main.c"/>
+    <file name="traceconfig.h"/>
+  </folder>
+  <sourceFolder></sourceFolder>
+  <property key="core.installationPath" value="file:/C:/Users/anteo/SimplicityStudio/v4_workspace/aaaaa"/>
+  <property key="projectCommon.buildArtifactType" value="EXE"/>
+  <property key="projectCommon.importModeId" value="COPY"/>
+  <module builtin="true" id="com.silabs.sdk.exx32.common.CMSIS">
+    <exclude pattern=".*"/>
+  </module>
+  <module builtin="true" id="com.silabs.sdk.exx32.common.bsp">
+    <exclude pattern=".*"/>
+  </module>
+  <module builtin="true" id="com.silabs.sdk.exx32.common.drivers">
+    <exclude pattern=".*"/>
+  </module>
+  <module builtin="true" id="com.silabs.sdk.exx32.board"/>
+  <module builtin="true" id="com.silabs.sdk.exx32.part"/>
+  <module builtin="true" id="com.silabs.sdk.exx32.common.emlib">
+    <include pattern="emlib/em_system.c"/>
+  </module>
+  <configuration name="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" label="GNU ARM v4.9.3 - Debug" stockConfigCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug">
+    <description></description>
+    <outputFileBase>${ProjName}</outputFileBase>
+    <prebuildStep></prebuildStep>
+    <postbuildStep></postbuildStep>
+    <macroDefinition languageCompatibility="c" name="DEBUG" value="1"/>
+    <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false"/>
+  </configuration>
+  <configuration name="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" label="GNU ARM v4.9.3 - Release" stockConfigCompatibility="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release">
+    <description></description>
+    <outputFileBase>${ProjName}</outputFileBase>
+    <prebuildStep></prebuildStep>
+    <postbuildStep></postbuildStep>
+    <macroDefinition languageCompatibility="c" name="NDEBUG" value="1"/>
+    <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false"/>
+  </configuration>
+</project>
